@@ -1,0 +1,286 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.content {
+    height: auto;
+    background-color: #010409;
+    display: flex;
+
+}
+
+/* Top Nav Styling */
+.top-nav {
+    width: 100%;
+    /* height: auto; */
+    height: 4em;
+    background-color: #21262d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Top Navbar Left Side */
+
+.top-nav-left {
+    width: 35%;
+    display: flex;
+    margin-left: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.top-nav-left input {
+    width: 17em;
+    border-radius: 0.3em;
+    height: 2em;
+    border: none;
+    font-weight: 600;
+    border: 1.5px solid #30363d;
+    background-color: #0d1117;
+}
+
+.top-nav-left input:focus {
+    border: 1px solid #1f6feb;
+}
+
+/* Top Navbar Right Side */
+
+.top-nav-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+    margin-right: 2em;
+}
+
+
+/* Content Area Side Navbar */
+.side-nav {
+    background-color: #0d1117;
+    flex-basis: 18.5%;
+    height: 100;
+    border-right: 1px solid #30363d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .side-nav-sticky {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.search-repo {
+    width: 82.5%;
+    padding: 2em 2em 1em 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-repo div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+    align-items: center;
+}
+
+.search-repo div span {
+    color: #8b949e;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.search-repo div button {
+    height: 2em;
+    width: 5em;
+    border: none;
+    border-radius: 0.3em;
+    color: white;
+    background-color: #238636;
+}
+
+.search-repo input {
+    height: 2em;
+    border-radius: 0.3em;
+    border: none;
+    background-color: #010409;
+    border: 1.5px solid #30363d;
+}
+
+.repos {
+    width: 82.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #30363d;
+    font-size: 14px;
+}
+
+.repos div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.repos div {
+    padding-top: 0.75em;
+}
+
+.recent-activity {
+    width: 82.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1em;
+}
+
+.secondary {
+    color: #8b949e;
+    font-size: 12px;
+    margin-top: 0.75em;
+}
+
+/* Main Content */
+.main-content {
+    flex-basis: 81.5%;
+    display: flex;
+}
+
+.middle {
+    padding: 1em 2em 2em 2em;
+    flex-basis: 62.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.global-campus {
+    border: 1px solid #30363d;
+    height: 36em;
+    border-radius: 0.3em;
+    width: 97%;
+    padding: 16px;
+}
+
+.intro {
+    border: 1px solid #30363d;
+    height: 17.5em;
+    border-radius: 0.3em;
+    width: 97%;
+    padding: 16px;
+}
+
+.explore {
+    padding: 32px;
+    border: 1px solid #30363d;
+    height: 7em;
+    border-radius: 0.3em;
+    width: 93.7%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.middle span {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    padding: 2em 2em 2em 2em;
+}
+
+.ukraine {
+    width: 18em;
+    height: 10em;
+    border: 1px solid #30363d;
+    border-radius: 0.3em;
+}
+
+.right span {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.explore-repo {
+    margin-bottom: 1em;
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid #30363d;
+    font-size: 12px;
+}
+
+.explore-repo span {
+    padding: 0;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    /* font-size: 14px */
+}
+
+.repo-name {
+    /* font-size: 14px; */
+}
+
+.explore-repo div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+}
+
+.explore-repo .language-color {
+    margin-right: 0.25em;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 1px;
+    border: 1px solid rgba(255,255,255,0.2);
+    display: inline-block;
+}
+
+.ts {
+    background-color: #2b7489;
+}
+
+.js {
+    background-color: #f1e05a;
+}
+
+.css {
+    background-color: #563d7c;
+}
+
+.star {
+    display: inline-block;
+    vertical-align: text-bottom;
+    fill: #8b949e;
+    margin-left: 0.75em;
+    margin-right: 0.25em;
+}
+
+.star-color {
+    color: #8b949e;
+}
+
+.avatar {
+    border-radius: 50%;
+    display: inline-block;
+    top: 3px;
+    margin-right: 0.25em;
+    position: relative;
+}
