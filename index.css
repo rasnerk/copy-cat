@@ -30,22 +30,35 @@ body{
 /* Top Navbar Left Side */
 
 .top-nav-left {
-    width: 35%;
+    /* width: 10%; */
     display: flex;
     margin-left: 2em;
     justify-content: space-evenly;
     align-items: center;
     color: white;
+    font-weight: 600;
 }
 
 .top-nav-left input {
-    width: 17em;
+    width: 20em;
     border-radius: 0.3em;
     height: 2em;
     border: none;
     font-weight: 600;
     border: 1.5px solid #30363d;
     background-color: #0d1117;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.top-nav-left span {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+.top-nav-left span:hover{
+    cursor: pointer;
+    color: #c9d1d9;
 }
 
 .top-nav-left input:focus {
@@ -94,7 +107,9 @@ body{
 }
 
 .search-repo div span {
-    color: #8b949e;
+    /* color: #8b949e; */
+    color: #c9d1d9;
+    /* color: white; */
     font-size: 14px;
     font-weight: 600;
 }
@@ -165,10 +180,40 @@ body{
 
 .global-campus {
     border: 1px solid #30363d;
-    height: 36em;
+    /* height: 36em; */
+    height: auto;
     border-radius: 0.3em;
     width: 97%;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.gc-0 {
+    font-size: 20px;
+    margin-top: 0.75em;
+    margin-bottom: 0.25em;
+    /* color:#8b949e; */
+    padding-left: 0.25em;
+}
+
+.gc-1 {
+    color:#8b949e;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 0.25em;
+}
+
+.btn-gc {
+    color: white;
+    background-color: #238636;
+    height: 2.5em;
+    width: 12em;
+    border: none;
+    border-radius: 0.3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 600;
 }
 
 .intro {
@@ -177,6 +222,7 @@ body{
     border-radius: 0.3em;
     width: 97%;
     padding: 16px;
+    background-color: #0d1117;
 }
 
 .explore {
@@ -187,6 +233,7 @@ body{
     width: 93.7%;
     margin-top: 1em;
     margin-bottom: 1em;
+    background-color: #0d1117;
 }
 
 .middle span {
@@ -207,6 +254,7 @@ body{
     height: 10em;
     border: 1px solid #30363d;
     border-radius: 0.3em;
+    background-color: #0d1117;
 }
 
 .right span {
@@ -277,10 +325,27 @@ body{
     color: #8b949e;
 }
 
+.github-logo {
+    /* fill: #8b949e; */
+    fill: white;
+}
+
 .avatar {
     border-radius: 50%;
     display: inline-block;
     top: 3px;
     margin-right: 0.25em;
     position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .top-nav-left {
+        width: 45%;
+    }
+    .side-nav {
+        flex-basis: 27%;
+    }
+    .explore {
+        width: 92%;
+    }
 }
