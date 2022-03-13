@@ -253,12 +253,24 @@ body{
 .explore {
     padding: 32px;
     border: 1px solid #30363d;
-    height: 7em;
+    /* height: 7em; */
+    height: auto;
     border-radius: 0.3em;
     width: 93.7%;
     margin-top: 1em;
     margin-bottom: 1em;
     background-color: #0d1117;
+}
+
+.explore-0 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.explore-1{
+    font-size: 20px;
 }
 
 .middle span {
@@ -319,7 +331,7 @@ body{
     margin-bottom: 1em;
 }
 
-.ukraine-4 a {
+a {
     color: #58a6ff;
     text-decoration: none;
 }
