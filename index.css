@@ -15,7 +15,7 @@ body{
 .top-nav {
     width: 100%;
     /* height: auto; */
-    height: 4em;
+    height: 5em;
     background-color: #21262d;
     display: flex;
     align-items: center;
@@ -189,11 +189,20 @@ body{
     flex-direction: column;
 }
 .gc-0 {
-    font-size: 20px;
-    margin-top: 0.75em;
-    margin-bottom: 0.25em;
+    color: #c3ccd5;
+    font-size: 24px;
+    /* margin-top: 0.75em; */
+    margin: 0;
+    /* margin-bottom: 0.25em; */
     /* color:#8b949e; */
     padding-left: 0.25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gc-0 span{
+    margin: 0;
 }
 
 .gc-1 {
@@ -202,6 +211,7 @@ body{
     margin-bottom: 1em;
     padding-right: 1em;
     padding-left: 0.25em;
+    font-size: 18px;
 }
 
 .btn-gc {
@@ -218,11 +228,26 @@ body{
 
 .intro {
     border: 1px solid #30363d;
-    height: 17.5em;
+    /* height: 17.5em; */
+    height: auto;
     border-radius: 0.3em;
     width: 97%;
     padding: 16px;
     background-color: #0d1117;
+}
+
+.intro-0 {
+    margin: 0.5em;
+    color: #c3ccd5;
+    font-size: 18px;
+}
+
+.intro-snip {
+    margin: 0.5em;
+    border: 1px solid #30363d;
+    width: 95%;
+    height: 10em;
+    border-radius: 0.3em;
 }
 
 .explore {
@@ -251,10 +276,52 @@ body{
 
 .ukraine {
     width: 18em;
-    height: 10em;
+    /* height: 10em; */
+    height: auto;
     border: 1px solid #30363d;
     border-radius: 0.3em;
     background-color: #0d1117;
+    display: flex;
+    flex-direction: column;
+}
+
+.ukraine-1{
+    display: flex;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ukraine-2 {
+    color: #c3ccd5;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.ukraine-3 {
+    color: #c3ccd5;
+    font-size: 15px;
+    /* margin: 1em; */
+    margin-left: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.ukraine-4 {
+    font-size: 15px;
+    margin-left: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.ukraine-4 a {
+    color: #58a6ff;
+    text-decoration: none;
 }
 
 .right span {
