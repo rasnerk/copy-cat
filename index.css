@@ -346,8 +346,9 @@ body{
     /* font-size: 14px */
 }
 
-.repo-name {
-    /* font-size: 14px; */
+.explore-repo span:nth-child(1):hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .explore-repo div {
